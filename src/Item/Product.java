@@ -1,24 +1,27 @@
-/**Product will implement the basic functionality that all
+ /**Naldo Ash
+  * Item.Product will implement the basic functionality that all
  * items on a production line should have serialNumber
  * String manufacturer
  *Date manufacuredOn
  *String name*/
+ package Item;
+
 import java.util.Date;
 
-public abstract class Product implements Item{
+public abstract class Product implements Item {
 
-    int serialNo;
-    String manufacturer;
-    String name;
-    Date manufacturedOn;
+    private int serialNo;
+    private String manufacturer;
+    private String name;
+    private Date manufacturedOn;
 
-    public static int currentProductionNumber =1;
+    private static int currentProductionNumber =1;
 
     public Product(String name){
         this.name = name;
-        manufacturedOn = new Date(System.currentTimeMillis());
+        manufacturedOn = new Date(System.currentTimeMillis()); //I got this from stackoverflow
         setProductionNumber(currentProductionNumber);
-        currentProductionNumber++;
+        serialNo = currentProductionNumber++;
         manufacturer = manufacturerOrigin;
     }
 
