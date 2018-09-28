@@ -12,7 +12,7 @@ public enum ItemType {
   private final String code;
 
   /**
-   *This constructor for Item type takes a string argument
+   *This constructor for Item type takes a string argument.
    * @param code should be one of the above code types
    */
    ItemType(String code ) {
