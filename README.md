@@ -1,5 +1,5 @@
 # JPProjct
-This is the first part of a multi-stage projec.
+This is the first part of a multi-stage project.
 Scenario - OraclProduction
 OraclProduction Ltd are specialists in producing production line manufacturing plants.
 They could be asked to create a production plant for any type of product ranging from a simple packaging
