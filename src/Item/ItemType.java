@@ -1,5 +1,6 @@
 /**Naldo Ash
- *
+ *Create an enum called ItemType that will
+ * store the following information.
  */
 package Item;
 public enum ItemType {
