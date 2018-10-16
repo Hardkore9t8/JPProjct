@@ -8,6 +8,9 @@
 
 import java.util.Date;
 
+ /**
+  *
+  */
 public abstract class Product implements Item {
 
     private int serialNo;

@@ -13,7 +13,8 @@ public enum MonitorType {
   MonitorType(String code ) {
     this.code = code;
   }
-  //This accessor returns the Item code
+
+  /**This accessor returns the Item code*/
   public String getCode() {
     return code;
   }
