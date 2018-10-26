@@ -8,7 +8,7 @@
 public void next();*/
 package Item;
 
-public interface MultiMediaControl {
+public interface MultimediaControl {
   void play();
   void stop();
   void previous();

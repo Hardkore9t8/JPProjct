@@ -1,6 +1,7 @@
+
 package Item;
 
-public class AudioPlayer extends Product implements MultiMediaControl {
+public class AudioPlayer extends Product implements MultimediaControl {
 
   String audioSpecification;
   ItemType mediaType;

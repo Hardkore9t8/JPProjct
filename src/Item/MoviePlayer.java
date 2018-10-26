@@ -1,14 +1,20 @@
 package Item;
 
-public class MoviePlayer extends Product implements MultiMediaControl {
+public class MoviePlayer extends Product implements MultimediaControl {
 
     Screen screen;
     MonitorType monitorType;
 
     public MoviePlayer(String name) {
         super(name);
-        this.screen = screen;
+        screen = new Screen("4096 x 2160 pixels",100,100);
         monitorType = MonitorType.LCD;
+    }
+
+    public MoviePlayer(String name, Screen screen, MonitorType monitorType) {
+        super(name);
+        this.screen = screen;
+        this.monitorType = monitorType;
     }
 
     @Override
