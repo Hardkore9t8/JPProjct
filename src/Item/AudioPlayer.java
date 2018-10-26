@@ -34,7 +34,7 @@ public class AudioPlayer extends Product implements MultimediaControl {
 
   @Override
   public String toString() {
-    return super.toString()+"\n"+
+    return super.toString() + "\n" +
         "Audio Specification: " + audioSpecification + "\n" +
         "Media Type: " + mediaType;
   }
