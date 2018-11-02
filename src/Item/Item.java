@@ -12,26 +12,36 @@ import java.util.Date;
 
 public interface Item {
 
-  final String manufacturerOrigin = "OracleProduction";
+    final String manufacturerOrigin = "OracleProduction";
 
-  /**This mutator sets the production number of the Item.Item
-   * @param productionNo is the production number for each Item
-   */
-  void setProductionNumber(int productionNo);
+    /**
+     * This mutator sets the production number of the Item.Item
+     *
+     * @param productionNo is the production number for each Item
+     */
+    void setProductionNumber(int productionNo);
 
-  /**This mutator sets the name of the Item.Item
-   * @param name is the name of each Item
-   */
-  void setName(String name);
+    /**
+     * This mutator sets the name of the Item.Item
+     *
+     * @param name is the name of each Item
+     */
+    void setName(String name);
 
-  /**This accessor gets the name of the Item.Item*/
-  String getName();
+    /**
+     * This accessor gets the name of the Item.Item
+     */
+    String getName();
 
-  /**This accessor gets the date of the Item.Item*/
-  Date getManufactureDate();
+    /**
+     * This accessor gets the date of the Item.Item
+     */
+    Date getManufactureDate();
 
-  /**This accessor gets the serial number of the Item.Item*/
-  int getSerialNumber();
+    /**
+     * This accessor gets the serial number of the Item.Item
+     */
+    int getSerialNumber();
 
-  //
+    //
 }

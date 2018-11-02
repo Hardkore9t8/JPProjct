@@ -8,12 +8,12 @@ package Item;
 
 public interface MultimediaControl {
 
-  void play();
+    void play();
 
-  void stop();
+    void stop();
 
-  void previous();
+    void previous();
 
-  void next();
+    void next();
 
 }

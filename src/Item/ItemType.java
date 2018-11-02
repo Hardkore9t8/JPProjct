@@ -5,21 +5,21 @@ package Item;
 
 public enum ItemType {
 
-  AUDIO_MOBILE("AM"),
-  AUDIO("AU"),
-  VISUAL("VI"),
-  VISUAL_MOBILE("VM");
+    AUDIO_MOBILE("AM"),
+    AUDIO("AU"),
+    VISUAL("VI"),
+    VISUAL_MOBILE("VM");
 
-  public final String code;
+    public final String code;
 
-  /**
-   * This constructor for Item type takes a string argument.
-   *
-   * @param code should be one of the above code types
-   */
-  ItemType(String code) {
-    this.code = code;
+    /**
+     * This constructor for Item type takes a string argument.
+     *
+     * @param code should be one of the above code types
+     */
+    ItemType(String code) {
+        this.code = code;
 
 
-  }
+    }
 }
